@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Activity 05</title>
+    <style>
+        :root {
+            box-sizing: border-box;
+        }
+    
+        *, ::after, ::before {
+            box-sizing: inherit;
+        }
+    
+        * {
+            font-family: sans-serif;
+        }
+    
+        .navigationBar{
+            border-bottom: 1px;
+        }
+        .navItem{
+            display:inline;
+            padding: 5px
+        }
+        .navTitle{
+            font-weight: bold;
+        }
+        .floatLeft{
+            float:inline-start;
+        }
+        .floatRight{
+            float:right;
+        }
+        .link{
+            color: orange;
+        }
+    
+        article{
+            margin: 0% 20%
+    
+    
+        }
+        .h1{
+            text-align: center;
+        }
+        img{
+            width: 20%;
+            float: left
+        }
+        .circle {
+            float: left;
+            width: 120px;
+            height: 120px;
+            border-radius: 60px;
+            background-color: black;
+            color: white;
+            text-align: center;
+    
+        }
+        .vcenter {
+            display: table;
+            border-spacing: 1rem
+        }
+    
+        .vcenter .circle {
+            float: none;
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .greyCol {
+            width: 25%;
+            background-color: grey;
+            color: white;
+        }
+        .blackCol {
+            width: 50%;
+            background-color: black;
+            color: white;
+        }
+        .equCells{
+            display: table;
+        }
+    
+        .equCells .blackCol{
+            display: table-cell;
+        }
+        .equCells .greyCol{
+            display: table-cell;
+        }
+    
+    
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navigationBar">
+        <ul>
+            <li class="navItem navTitle floatLeft">Floated menus:</li>
+            <li class="navItem link floatLeft">One</li>
+            <li class="navItem link floatLeft">Two</li>
+            <li class="navItem link floatRight">Three</li>
+            <li class="navItem link floatRight">Four</li>
+        </ul>
+    </nav>
+
+    <article>
+        <h1>Wrapping text around an image</h1>
+        <img alt="city" src="https://c1.peakpx.com/wallpaper/324/963/786/vancouver-downtown-city-vancouver-wallpaper-preview.jpg">
+        <h1>A secondary heading</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti illum recusandae nulla. Sunt veniam eveniet quasi ipsum. Itaque, necessitatibus illo soluta cum, eos nesciunt ullam, nostrum libero dolorem explicabo mollitia. Animi assumenda error accusamus quidem nemo ab labore numquam voluptas quibusdam debitis. Debitis iure reiciendis unde? Minus autem ipsam, minima tempore accusantium itaque culpa quod possimus modi explicabo! Deserunt, amet! Adipisci ipsam perferendis id ab, maxime natus ad eveniet eos recusandae sit laboriosam amet nesciunt optio quod voluptates exercitationem. Corporis illum maiores omnis cum accusantium, natus consequatur incidunt eum saepe!
+        </p>
+
+    </article>
+
+    <article>
+        <h1>Centering Text Vertically</h1>
+        <div class="clearfix vcenter">
+            <div class="circle">Selectors</div>
+            <div class="circle">Inheritance</div>
+            <div class="circle">Cascade</div>
+            <div class="circle">Specificity</div>
+        </div>
+    </article>
+
+    <article class="equCells">
+        <h1>Equal-height Columns</h1>
+        <div class="equCells">
+            <div class="greyCol">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiore assumenda labore aperiam laboriosam dolorum asperiores adipisci tenetur deserunt?
+            </div>
+            <div class="blackCol">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, hic! Autem ipsam voluptatibus eum, voluptatem sequi explicabo quae rerum eius fuga odit totam? Dolorum perferendis quos ipsum ea et cumque! Rerum expedita placeat velit explicabo aut illum modi quo rem accusantium laborum odit, vel ad consequuntur ullam maxime vitae autem necessitatibus consectetur dignissimos, quisquam dolore. Magni ipsa dolor a culpa. Adipisci impedit dolor amet possimus esse dolorem distinctio placeat eaque explicabo eius. Aut doloremque dicta vel adipisci, fugiat numquam accusamus deleniti magni quo soluta atque id, quae et nemo. Enim?
+            </div>
+            <div class="greyCol">
+                Lorem ipsum facere deleniti nobis molestias ipsum voluptates consequuntur quod laborum optio pariatur itaque mollitia?
+            </div>
+
+
+        </div>
+    </article>
+
+    
+</body>
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <meta name="description" content="landing page">
+    <title>Utah Mighty Five - Landing Page</title>
+    <style>
+	
+        :root {
+            box-sizing: border-box;
+        }
+
+        *, ::after, ::before {
+            box-sizing: inherit;
+        }
+
+        * {
+            font-family: sans-serif;
+        }
+
+        .topNavigation {
+            border-bottom: 1px;
+            background-color:rgb(218, 218, 218);
+            padding: 3px
+        }
+        .leftNavItem {
+            display: inline;
+            float: inline-start;
+        }
+        .rightNavItem {
+            display: inline;
+            float: right;
+        }
+        .bold{
+            font-weight: bold;
+        }
+        .link{
+            color: orange;
+            padding-inline: 10px;
+        }
+
+        .mainSection{
+            margin: 5% 20%;
+        }
+        .sectionText{
+            float: left;
+            display: inline;
+        }
+        .title{
+            font-size: 32px;
+            display: inline;
+            word-wrap: normal;
+            
+        }
+        .youtube-embed {
+            float:right;
+            display: inline;
+            padding: 20px;
+            float: right;
+        }
+        .button {
+            background-color: orange;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 10px 10px;
+        }
+
+        .Section2{
+            margin: 5% 20%;
+            border-bottom: 2px;
+            border-right: 2px;
+        }       
+        .column {
+            float: left;
+            width: 30%;
+            margin: 10px
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+            margin-bottom: 20px;
+        }
+
+        .locDesc{
+            text-align: left;
+            margin:5px;
+        }
+
+        .locPics{
+            width: 100%;
+        }
+
+        .center{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px;
+            text-align: center;
+        }
+
+        .navCol {
+            float: left;
+            width: 25%;
+            background-color: rgb(78, 78, 78);
+        }
+
+        .navRow:after {
+            content: "";
+            display: table;
+            clear: both;
+            margin-bottom: 20px;
+        }
+
+        .flink {
+            color: orange;
+            padding: 5px;
+        }
+
+        .fhead {
+            color: white;
+            padding: 5px;
+        }
+
+        .legal{
+            margin: 0% 20%;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+
+    <nav class="topNavigation">
+        <ul>
+            <li class="leftNavItem">Utah Mighty</li>
+            <li class="leftNavItem bold">Five</li>
+            <li class="leftNavItem link">One</li>
+            <li class="leftNavItem link">Two</li>
+            <li class="leftNavItem link">Three</li>
+            <li class="leftNavItem link">Four</li>
+            <li class="leftNavItem link">Five</li>
+            <li class="rightNavItem link">Account</li>
+            <li class="rightNavItem link">Login</li>
+        </ul>
+    </nav>
+
+    <section class="mainSection">
+
+        <div class="sectionText">
+            <h1 class="title">Close Your Eyes and Open Your Mind</h1>
+            <iframe class="youtube-embed" width="560" height="315" src="https://www.youtube.com/embed/iKJ-TuDl8h0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Lorem ipsum dolor sit amet consectuer adipisching alli Mortila documenque a undo quo facilis minima minus est espectida Minau femeur expicato? invetorme facilis sure enim quem nobs velt cum ennol</p>
+        </div>
+
+        <div>
+            <a class="button">
+                Take a Tour
+            </a>
+            <a class="button">
+                Start a Free Trial
+            </a>
+        </div>
+
+    </section>
+
+    <section class="Section2">
+        <h1>What are they?</h1>
+
+        <div class="row">
+            <div class="column">
+                <img class="locPics" alt="Bryce Canyon" src="https://images.unsplash.com/photo-1514820654155-15e52b32874e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YnJ5Y2UlMjBjYW55b24lMjBuYXRpb25hbCUyMHBhcmt8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60">
+                <h3 class="locDesc">Bryce Canyon National Park</h3>
+                <p class="locDesc">Lorem ipsum dolor, sit amet consecteur adipiscing elt. Eos tenetur porro magnam quos molestae non assumenta, especturi esse natus. Sapierente dolorbus optio excellationem repelart at! id error disgissimos sinetamet</p>
+            </div>
+            <div class="column">
+                <img class="locPics" alt="Zion National Park" src="https://images.unsplash.com/photo-1616699058158-30a2f322f698?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8emlvbiUyMG5hdGlvbmFsJTIwcGFya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60">
+                <h3 class="locDesc">Zion National Park</h3>
+                <p class="locDesc">Lorem ipsum dolor, sit amet consecteur adipiscing elt. Eos tenetur porro magnam quos molestae non assumenta, especturi esse natus. Sapierente dolorbus optio excellationem repelart at! id error disgissimos sinetamet</p>
+            </div>
+            <div class="column">
+                <img class="locPics" alt="Arches National Park" src="https://images.unsplash.com/photo-1605999212475-d958ebac5e57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YXJjaGVzJTIwbmF0aW9uYWwlMjBwYXJrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60">
+                <h3 class="locDesc">Arches National Park</h3>
+                <p class="locDesc">Lorem ipsum dolor, sit amet consecteur adipiscing elt. Eos tenetur porro magnam quos molestae non assumenta, especturi esse natus. Sapierente dolorbus optio excellationem repelart at! id error disgissimos sinetamet</p>
+            </div>
+        </div>
+
+    </section>
+
+    <a class="button center">
+        Remaining two
+    </a>
+
+    <footer>
+
+        <div class="navRow">
+
+            <div class="navCol">
+                <ul style="list-style: none">
+                    <li class="fhead">Offices</li>
+                    <li class="flink">One</li>
+                    <li class="flink">Two</li>
+                    <li class="flink">Three</li>
+                    <li class="flink">Four</li>
+                </ul>
+
+            </div>
+            <div class="navCol">
+                <ul style="list-style: none">
+                    <li class="fhead">Links</li>
+                    <li class="flink">One</li>
+                    <li class="flink">Two</li>
+                    <li class="flink">Three</li>
+                    <li class="flink">Four</li>
+                </ul>
+            </div>
+            <div class="navCol">
+                <ul style="list-style: none">
+                    <li class="fhead">Contact</li>
+                    <li class="flink">One</li>
+                    <li class="flink">Two</li>
+                    <li class="flink">Three</li>
+                    <li class="flink">Four</li>
+                </ul>
+            </div>
+            <div class="navCol">
+                <ul style="list-style: none">
+                    <li class="fhead">Location</li>
+                    <li class="flink">One</li>
+                    <li class="flink">Two</li>
+                    <li class="flink">Three</li>
+                    <li class="flink">Four</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <nav class="legal">
+            <ul>
+                <li class="leftNavItem link">Legal</li>
+                <li class="leftNavItem link">Partner</li>
+                <li class="leftNavItem link">Explore</li>
+                <li class="rightNavItem">All rights reserved</li>
+            </ul>
+        </nav>
+
+    </footer>
+
+
+</body>
+</html>
